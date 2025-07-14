@@ -1,0 +1,13 @@
+{
+  "name": "twitter-like-replies",
+  "version": "1.0.0",
+  "description": "Playwright script to like all replies to a tweet on Twitter",
+  "main": "twitter_like_replies.js",
+  "scripts": {
+    "like-replies": "node twitter_like_replies.js"
+  },
+  "dependencies": {
+    "playwright": "^1.43.1",
+    "dotenv": "^16.3.1"
+  }
+} 
